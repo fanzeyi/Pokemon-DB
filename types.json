@@ -2,91 +2,145 @@
    {
       "ename":"Normal",
       "jname":"\u30ce\u30fc\u30de\u30eb",
-      "cname":"\u4e00\u822c"
+      "cname":"\u4e00\u822c",
+      "effective": [],
+      "ineffective" : ["Rock", "Steel"],
+      "no_effect" : ["Ghost"]
    },
    {
       "ename":"Fighting",
       "jname":"\u304b\u304f\u3068\u3046",
-      "cname":"\u683c\u6597"
+      "cname":"\u683c\u6597",
+      "effective": ["Normal", "Ice", "Rock", "Dark", "Steel"],
+      "ineffective" : ["Poison", "Flying", "Psychic", "Bug", "Fairy"],
+      "no_effect" : ["Ghost"]
    },
    {
       "ename":"Flying",
       "jname":"\u3072\u3053\u3046",
-      "cname":"\u98de\u884c"
+      "cname":"\u98de\u884c",
+      "effective": ["Grass", "Fighting", "Bug"],
+      "ineffective" : ["Electric", "Rock", "Steel"],
+      "no_effect" : []
    },
    {
       "ename":"Poison",
       "jname":"\u3069\u304f",
-      "cname":"\u6bd2"
+      "cname":"\u6bd2",
+      "effective": ["Grass", "Fairy"],
+      "ineffective" : ["Poison", "Ground", "Rock", "Ghost"],
+      "no_effect" : ["Steel"]
    },
    {
       "ename":"Ground",
       "jname":"\u3058\u3081\u3093",
-      "cname":"\u5730\u4e0a"
+      "cname":"\u5730\u4e0a",
+      "effective": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+      "ineffective" : ["Grass", "Bug"],
+      "no_effect" : ["Flying"]
    },
    {
       "ename":"Rock",
       "jname":"\u3044\u308f",
-      "cname":"\u5ca9\u77f3"
+      "cname":"\u5ca9\u77f3",
+      "effective": ["Fire", "Ice", "Flying", "Bug"],
+      "ineffective" : ["Fighting", "Ground", "Steel"],
+      "no_effect" : []
    },
    {
       "ename":"Bug",
       "jname":"\u3080\u3057",
-      "cname":"\u866b"
+      "cname":"\u866b",
+      "effective": ["Grass", "Psychic", "Dark"],
+      "ineffective" : ["Fire", "Fighting", "Poison", "Flying", "Ghost", "Steel", "Fairy"],
+      "no_effect" : []
    },
    {
       "ename":"Ghost",
       "jname":"\u30b4\u30fc\u30b9\u30c8",
-      "cname":"\u5e7d\u7075"
+      "cname":"\u5e7d\u7075",
+      "effective": ["Psychic", "Ghost"],
+      "ineffective" : ["Dark"],
+      "no_effect" : ["Normal"]
    },
    {
       "ename":"Steel",
       "jname":"\u306f\u304c\u306d",
-      "cname":"\u94a2"
+      "cname":"\u94a2",
+      "effective": ["Ice", "Rock", "Fairy"],
+      "ineffective" : ["Fire", "Water", "Electric", "Steel"],
+      "no_effect" : []
    },
    {
       "ename":"Fire",
       "jname":"\u307b\u306e\u304a",
-      "cname":"\u708e"
+      "cname":"\u708e",
+      "effective": ["Grass", "Ice", "Bug", "Steel"],
+      "ineffective" : ["Fire", "Water", "Rock", "Dragon"],
+      "no_effect" : []
    },
    {
       "ename":"Water",
       "jname":"\u307f\u305a",
-      "cname":"\u6c34"
+      "cname":"\u6c34",
+      "effective": ["Fire", "Ground", "Rock"],
+      "ineffective" : ["Water", "Grass", "Dragon"],
+      "no_effect" : []
    },
    {
       "ename":"Grass",
       "jname":"\u304f\u3055",
-      "cname":"\u8349"
+      "cname":"\u8349",
+      "effective": ["Water", "Ground", "Rock"],
+      "ineffective" : ["Fire", "Grass", "Poison", "Flying", "Bug", "Dragon", "Steel"],
+      "no_effect" : []
    },
    {
       "ename":"Electric",
       "jname":"\u3067\u3093\u304d",
-      "cname":"\u7535"
+      "cname":"\u7535",
+      "effective": ["Water", "Flying"],
+      "ineffective" : ["Electric", "Grass", "Dragon"],
+      "no_effect" : ["Ground"]
    },
    {
       "ename":"Psychic",
       "jname":"\u30a8\u30b9\u30d1\u30fc",
-      "cname":"\u8d85\u80fd"
+      "cname":"\u8d85\u80fd",
+      "effective": ["Fighting", "Poison"],
+      "ineffective" : ["Psychic", "Steel"],
+      "no_effect" : ["Dark"]
    },
    {
       "ename":"Ice",
       "jname":"\u3053\u304a\u308a",
-      "cname":"\u51b0"
+      "cname":"\u51b0",
+      "effective": ["Grass", "Ground", "Flying", "Dragon"],
+      "ineffective" : ["Fire", "Water", "Ice", "Steel"],
+      "no_effect" : []
    },
    {
       "ename":"Dragon",
       "jname":"\u30c9\u30e9\u30b4\u30f3",
-      "cname":"\u9f99"
+      "cname":"\u9f99",
+      "effective": ["Dragon"],
+      "ineffective" : ["Steel"],
+      "no_effect" : ["Fairy"]
    },
    {
       "ename":"Dark",
       "jname":"\u3042\u304f",
-      "cname":"\u6076"
+      "cname":"\u6076",
+      "effective": ["Psychic", "Ghost"],
+      "ineffective" : ["Fighting", "Dark", "Fairy"],
+      "no_effect" : []
    },
    {
       "ename":"Fairy",
       "jname":"\u30d5\u30a7\u30a2\u30ea\u30fc",
-      "cname":"\u5996\u7cbe"
+      "cname":"\u5996\u7cbe",
+      "effective": ["Fighting", "Dragon", "Dark"],
+      "ineffective" : ["Fire", "Poisin", "Steel"],
+      "no_effect" : []
    }
 ]
