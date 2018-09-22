@@ -42770,6 +42770,7 @@
         "cname": "\u9752\u85e4\u86c7", 
         "ename": "Servine", 
         "id": "496", 
+        "jname": "\u30b8\u30e3\u30ce\u30d3\u30fc", 
         "skills": {}, 
         "type": [
             "\u8349"
@@ -43428,6 +43429,7 @@
         "cname": "\u6252\u624b\u732b", 
         "ename": "Purrloin", 
         "id": "509", 
+        "jname": "\u30c1\u30e7\u30ed\u30cd\u30b3", 
         "skills": {
             "egg": [
                 204, 
@@ -43523,6 +43525,7 @@
         "cname": "\u9177\u8c79", 
         "ename": "Liepard", 
         "id": "510", 
+        "jname": "\u30ec\u30d1\u30eb\u30c0\u30b9", 
         "skills": {
             "egg": [
                 204, 
@@ -43627,6 +43630,7 @@
         "cname": "\u82b1\u6930\u7334", 
         "ename": "Pansage", 
         "id": "511", 
+        "jname": "\u30e4\u30ca\u30c3\u30d7", 
         "skills": {
             "egg": [
                 310, 
@@ -43832,6 +43836,7 @@
         "cname": "\u7206\u9999\u7334", 
         "ename": "Pansear", 
         "id": "513", 
+        "jname": "\u30d0\u30aa\u30c3\u30d7", 
         "skills": {
             "egg": [
                 310, 
@@ -44345,6 +44350,7 @@
         "cname": "\u68a6\u68a6\u8680", 
         "ename": "Musharna", 
         "id": "518", 
+        "jname": "\u30e0\u30b7\u30e3\u30fc\u30ca", 
         "skills": {
             "egg": [
                 112, 
@@ -44448,6 +44454,7 @@
         "cname": "\u8c46\u8c46\u9e3d", 
         "ename": "Pidove", 
         "id": "519", 
+        "jname": "\u30de\u30e1\u30d1\u30c8", 
         "skills": {
             "egg": [
                 516, 
@@ -44524,6 +44531,7 @@
         "cname": "\u6ce2\u6ce2\u9e3d", 
         "ename": "Tranquill", 
         "id": "520", 
+        "jname": "\u30cf\u30c8\u30fc\u30dc\u30fc", 
         "skills": {
             "egg": [
                 516, 
@@ -44860,6 +44868,7 @@
         "cname": "\u77f3\u4e38\u5b50", 
         "ename": "Roggenrola", 
         "id": "524", 
+        "jname": "\u30c0\u30f3\u30b4\u30ed", 
         "skills": {
             "egg": [
                 475, 
@@ -45021,6 +45030,7 @@
         "cname": "\u5e9e\u5ca9\u602a", 
         "ename": "Gigalith", 
         "id": "526", 
+        "jname": "\u30ae\u30ac\u30a4\u30a2\u30b9", 
         "skills": {
             "egg": [
                 475, 
@@ -45216,6 +45226,7 @@
         "cname": "\u5fc3\u8759\u8760", 
         "ename": "Swoobat", 
         "id": "528", 
+        "jname": "\u30b3\u30b3\u30ed\u30e2\u30ea", 
         "skills": {
             "egg": [
                 445, 
@@ -45507,6 +45518,7 @@
         "cname": "\u5dee\u4e0d\u591a\u5a03\u5a03", 
         "ename": "Audino", 
         "id": "531", 
+        "jname": "\u30bf\u30d6\u30f3\u30cd", 
         "skills": {
             "egg": [
                 133, 
@@ -45629,6 +45641,7 @@
         "cname": "\u642c\u8fd0\u5c0f\u5320", 
         "ename": "Timburr", 
         "id": "532", 
+        "jname": "\u30c9\u30c3\u30b3\u30e9\u30fc", 
         "skills": {
             "egg": [
                 4, 
@@ -45724,6 +45737,7 @@
         "cname": "\u94c1\u9aa8\u571f\u4eba", 
         "ename": "Gurdurr", 
         "id": "533", 
+        "jname": "\u30c9\u30c6\u30c3\u30b3\u30c4", 
         "skills": {
             "egg": [
                 4, 
@@ -45821,6 +45835,7 @@
         "cname": "\u4fee\u7f2e\u8001\u5934", 
         "ename": "Conkeldurr", 
         "id": "534", 
+        "jname": "\u30ed\u30fc\u30d6\u30b7\u30f3", 
         "skills": {
             "egg": [
                 4, 
@@ -45922,6 +45937,7 @@
         "cname": "\u5706\u874c\u86aa", 
         "ename": "Tympole", 
         "id": "535", 
+        "jname": "\u30aa\u30bf\u30de\u30ed", 
         "skills": {
             "egg": [
                 495, 
@@ -45996,6 +46012,7 @@
         "cname": "\u84dd\u87fe\u870d", 
         "ename": "Palpitoad", 
         "id": "536", 
+        "jname": "\u30ac\u30de\u30ac\u30eb", 
         "skills": {
             "egg": [
                 495, 
@@ -46435,6 +46452,7 @@
         "cname": "\u5b9d\u5305\u8327", 
         "ename": "Swadloon", 
         "id": "541", 
+        "jname": "\u30af\u30eb\u30de\u30e6", 
         "skills": {
             "egg": [
                 97, 
@@ -46520,6 +46538,7 @@
         "cname": "\u4fdd\u6bcd\u866b", 
         "ename": "Leavanny", 
         "id": "542", 
+        "jname": "\u30cf\u30cf\u30b3\u30e2\u30ea", 
         "skills": {
             "egg": [
                 97, 
@@ -46630,6 +46649,7 @@
         "cname": "\u767e\u8db3\u8708\u86a3", 
         "ename": "Venipede", 
         "id": "543", 
+        "jname": "\u30d5\u30b7\u30c7", 
         "skills": {
             "egg": [
                 42, 
@@ -46705,6 +46725,7 @@
         "cname": "\u8f66\u8f6e\u7403", 
         "ename": "Whirlipede", 
         "id": "544", 
+        "jname": "\u30db\u30a4\u30fc\u30ac", 
         "skills": {
             "egg": [
                 42, 
@@ -46782,6 +46803,7 @@
         "cname": "\u8708\u86a3\u738b", 
         "ename": "Scolipede", 
         "id": "545", 
+        "jname": "\u30da\u30f3\u30c9\u30e9\u30fc", 
         "skills": {
             "egg": [
                 42, 
@@ -46880,6 +46902,7 @@
         "cname": "\u6728\u68c9\u7403", 
         "ename": "Cottonee", 
         "id": "546", 
+        "jname": "\u30e2\u30f3\u30e1\u30f3", 
         "skills": {}, 
         "type": [
             "\u8349", 
@@ -46898,6 +46921,7 @@
         "cname": "\u98ce\u5996\u7cbe", 
         "ename": "Whimsicott", 
         "id": "547", 
+        "jname": "\u30a8\u30eb\u30d5\u30fc\u30f3", 
         "skills": {}, 
         "type": [
             "\u8349", 
@@ -46916,6 +46940,7 @@
         "cname": "\u767e\u5408\u6839\u5a03\u5a03", 
         "ename": "Petilil", 
         "id": "548", 
+        "jname": "\u30c1\u30e5\u30ea\u30cd", 
         "skills": {
             "egg": [
                 117, 
@@ -46994,6 +47019,7 @@
         "cname": "\u88d9\u513f\u5c0f\u59d0", 
         "ename": "Lilligant", 
         "id": "549", 
+        "jname": "\u30c9\u30ec\u30c7\u30a3\u30a2", 
         "skills": {
             "egg": [
                 117, 
@@ -47086,6 +47112,7 @@
         "cname": "\u52c7\u58eb\u9c88\u9c7c", 
         "ename": "Basculin", 
         "id": "550", 
+        "jname": "\u30d0\u30b9\u30e9\u30aa", 
         "model": [
             {
                 "id": "550B", 
@@ -47274,6 +47301,7 @@
         "cname": "\u6df7\u6df7\u9cc4", 
         "ename": "Krokorok", 
         "id": "552", 
+        "jname": "\u30ef\u30eb\u30d3\u30eb", 
         "skills": {
             "egg": [
                 251, 
@@ -47382,6 +47410,7 @@
         "cname": "\u6d41\u6c13\u9cc4", 
         "ename": "Krookodile", 
         "id": "553", 
+        "jname": "\u30ef\u30eb\u30d3\u30a2\u30eb", 
         "skills": {
             "egg": [
                 251, 
@@ -47505,6 +47534,7 @@
         "cname": "\u706b\u7ea2\u4e0d\u5012\u7fc1", 
         "ename": "Darumaka", 
         "id": "554", 
+        "jname": "\u30c0\u30eb\u30de\u30c3\u30ab", 
         "skills": {}, 
         "type": [
             "\u708e"
@@ -47549,6 +47579,7 @@
         "cname": "\u8857\u982d\u6c99\u9234", 
         "ename": "Maractus", 
         "id": "556", 
+        "jname": "\u30de\u30e9\u30ab\u30c3\u30c1", 
         "skills": {
             "egg": [
                 340, 
@@ -47724,6 +47755,7 @@
         "cname": "\u5ca9\u6bbf\u5c45\u87f9", 
         "ename": "Crustle", 
         "id": "558", 
+        "jname": "\u30a4\u30ef\u30d1\u30ec\u30b9", 
         "skills": {
             "egg": [
                 335, 
