@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "name": {
       "english": "Bulbasaur",
@@ -17,7 +16,8 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 45
-    }
+    },
+    "image": "https://github.com/fanzeyi/pokemon.json/blob/master/images/001Bulbasaur.png"
   },
   {
     "id": 2,
@@ -37,7 +37,8 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 60
-    }
+    },
+    "image": "https://github.com/fanzeyi/pokemon.json/blob/master/images/002Bulbasaur.png"
   },
   {
     "id": 3,
