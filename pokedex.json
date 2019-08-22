@@ -239,7 +239,10 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 30
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/011.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/011.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/011MS.png"
   },
   {
     "id": 12,
@@ -259,7 +262,10 @@
       "Sp. Attack": 90,
       "Sp. Defense": 80,
       "Speed": 70
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/012.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/012.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/012MS.png"
   },
   {
     "id": 13,
@@ -279,7 +285,10 @@
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 50
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/013.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/013.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/013MS.png"
   },
   {
     "id": 14,
@@ -299,7 +308,10 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 35
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/014.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/014.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/014MS.png"
   },
   {
     "id": 15,
@@ -319,7 +331,10 @@
       "Sp. Attack": 45,
       "Sp. Defense": 80,
       "Speed": 75
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/015.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/015.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/015MS.png"
   },
   {
     "id": 16,
@@ -339,7 +354,10 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 56
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/016.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/016.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/016MS.png"
   },
   {
     "id": 17,
@@ -359,7 +377,10 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 71
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/017.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/017.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/017MS.png"
   },
   {
     "id": 18,
@@ -379,7 +400,10 @@
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 101
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/018.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/018.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/018MS.png"
   },
   {
     "id": 19,
@@ -398,7 +422,10 @@
       "Sp. Attack": 25,
       "Sp. Defense": 35,
       "Speed": 72
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/019.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/019.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/019MS.png"
   },
   {
     "id": 20,
@@ -417,7 +444,10 @@
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 97
-    }
+    },
+    "image": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/020.png",
+    "thumb": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/thumbnails/020.png",
+    "sprite": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/020MS.png"
   },
   {
     "id": 21,
