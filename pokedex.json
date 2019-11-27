@@ -15803,7 +15803,7 @@
       "english": "Type: Null",
       "japanese": "タイプ：ヌル",
       "chinese": "属性：空",
-      "french": "Silvallié"
+      "french": "Type:0"
     },
     "type": [
       "Normal"
@@ -15823,7 +15823,7 @@
       "english": "Silvally",
       "japanese": "シルヴァディ",
       "chinese": "银伴战兽",
-      "french": "Météno"
+      "french": "Silvallié"
     },
     "type": [
       "Normal"
@@ -15843,7 +15843,7 @@
       "english": "Minior",
       "japanese": "メテノ",
       "chinese": "小陨星",
-      "french": "Dodoala"
+      "french": "Météno"
     },
     "type": [
       "Rock",
@@ -15864,7 +15864,7 @@
       "english": "Komala",
       "japanese": "ネッコアラ",
       "chinese": "树枕尾熊",
-      "french": "Boumata"
+      "french": "Dodoala"
     },
     "type": [
       "Normal"
@@ -15884,7 +15884,7 @@
       "english": "Turtonator",
       "japanese": "バクガメス",
       "chinese": "爆焰龟兽",
-      "french": "Togedemaru"
+      "french": "Boumata"
     },
     "type": [
       "Fire",
@@ -15905,7 +15905,7 @@
       "english": "Togedemaru",
       "japanese": "トゲデマル",
       "chinese": "托戈德玛尔",
-      "french": "Mimiqui"
+      "french": "Togedemaru"
     },
     "type": [
       "Electric",
@@ -15926,7 +15926,7 @@
       "english": "Mimikyu",
       "japanese": "ミミッキュ",
       "chinese": "谜拟Ｑ",
-      "french": "Denticrisse"
+      "french": "Mimiqui"
     },
     "type": [
       "Ghost",
@@ -15947,7 +15947,7 @@
       "english": "Bruxish",
       "japanese": "ハギギシリ",
       "chinese": "磨牙彩皮鱼",
-      "french": "Draïeul"
+      "french": "Denticrisse"
     },
     "type": [
       "Water",
@@ -15968,7 +15968,7 @@
       "english": "Drampa",
       "japanese": "ジジーロン",
       "chinese": "老翁龙",
-      "french": "Sinistrail"
+      "french": "Draïeul"
     },
     "type": [
       "Normal",
@@ -15989,7 +15989,7 @@
       "english": "Dhelmise",
       "japanese": "ダダリン",
       "chinese": "破破舵轮",
-      "french": "Bébécaille"
+      "french": "Sinistrail"
     },
     "type": [
       "Ghost",
@@ -16010,7 +16010,7 @@
       "english": "Jangmo-o",
       "japanese": "ジャラコ",
       "chinese": "心鳞宝",
-      "french": "Écaïd"
+      "french": "Bébécaille"
     },
     "type": [
       "Dragon"
@@ -16030,7 +16030,7 @@
       "english": "Hakamo-o",
       "japanese": "ジャランゴ",
       "chinese": "鳞甲龙",
-      "french": "Ékaïser"
+      "french": "Écaïd"
     },
     "type": [
       "Dragon",
@@ -16051,7 +16051,7 @@
       "english": "Kommo-o",
       "japanese": "ジャラランガ",
       "chinese": "杖尾鳞甲龙",
-      "french": "Tokorico"
+      "french": "Ékaïser"
     },
     "type": [
       "Dragon",
@@ -16072,7 +16072,7 @@
       "english": "Tapu Koko",
       "japanese": "カプ・コケコ",
       "chinese": "卡璞・鸣鸣",
-      "french": "Tokopiyon"
+      "french": "Tokorico"
     },
     "type": [
       "Electric",
@@ -16093,7 +16093,7 @@
       "english": "Tapu Lele",
       "japanese": "カプ・テテフ",
       "chinese": "卡璞・蝶蝶",
-      "french": "Tokotoro"
+      "french": "Tokopiyon"
     },
     "type": [
       "Psychic",
@@ -16114,7 +16114,7 @@
       "english": "Tapu Bulu",
       "japanese": "カプ・ブルル",
       "chinese": "卡璞・哞哞",
-      "french": "Tokopisco"
+      "french": "Tokotoro"
     },
     "type": [
       "Grass",
@@ -16135,7 +16135,7 @@
       "english": "Tapu Fini",
       "japanese": "カプ・レヒレ",
       "chinese": "卡璞・鳍鳍",
-      "french": "Cosmog"
+      "french": "Tokopisco"
     },
     "type": [
       "Water",
@@ -16156,7 +16156,7 @@
       "english": "Cosmog",
       "japanese": "コスモッグ",
       "chinese": "科斯莫古",
-      "french": "Cosmovum"
+      "french": "Cosmog"
     },
     "type": [
       "Psychic"
@@ -16176,7 +16176,7 @@
       "english": "Cosmoem",
       "japanese": "コスモウム",
       "chinese": "科斯莫姆",
-      "french": "Solgaleo"
+      "french": "Cosmovum"
     },
     "type": [
       "Psychic"
@@ -16196,7 +16196,7 @@
       "english": "Solgaleo",
       "japanese": "ソルガレオ",
       "chinese": "索尔迦雷欧",
-      "french": "Lunala"
+      "french": "Solgaleo"
     },
     "type": [
       "Psychic",
@@ -16217,7 +16217,7 @@
       "english": "Lunala",
       "japanese": "ルナアーラ",
       "chinese": "露奈雅拉",
-      "french": "Zéroïd"
+      "french": "Lunala"
     },
     "type": [
       "Psychic",
@@ -16238,7 +16238,7 @@
       "english": "Nihilego",
       "japanese": "ウツロイド",
       "chinese": "虚吾伊德",
-      "french": "Mouscoto"
+      "french": "Zéroïd"
     },
     "type": [
       "Rock",
@@ -16259,7 +16259,7 @@
       "english": "Buzzwole",
       "japanese": "マッシブーン",
       "chinese": "爆肌蚊",
-      "french": "Cancrelove"
+      "french": "Mouscoto"
     },
     "type": [
       "Bug",
@@ -16280,7 +16280,7 @@
       "english": "Pheromosa",
       "japanese": "フェローチェ",
       "chinese": "费洛美螂",
-      "french": "Câblifère"
+      "french": "Cancrelove"
     },
     "type": [
       "Bug",
@@ -16301,7 +16301,7 @@
       "english": "Xurkitree",
       "japanese": "デンジュモク",
       "chinese": "电束木",
-      "french": "Bamboiselle"
+      "french": "Câblifère"
     },
     "type": [
       "Electric"
@@ -16321,7 +16321,7 @@
       "english": "Celesteela",
       "japanese": "テッカグヤ",
       "chinese": "铁火辉夜",
-      "french": "Katagami"
+      "french": "Bamboiselle"
     },
     "type": [
       "Steel",
@@ -16342,7 +16342,7 @@
       "english": "Kartana",
       "japanese": "カミツルギ",
       "chinese": "纸御剑",
-      "french": "Engloutyran"
+      "french": "Katagami"
     },
     "type": [
       "Grass",
@@ -16363,7 +16363,7 @@
       "english": "Guzzlord",
       "japanese": "アクジキング",
       "chinese": "恶食大王",
-      "french": "Necrozma"
+      "french": "Engloutyran"
     },
     "type": [
       "Dark",
@@ -16384,7 +16384,7 @@
       "english": "Necrozma",
       "japanese": "ネクロズマ",
       "chinese": "奈克洛兹玛",
-      "french": "Magearna"
+      "french": "Necrozma"
     },
     "type": [
       "Psychic"
@@ -16404,7 +16404,7 @@
       "english": "Magearna",
       "japanese": "マギアナ",
       "chinese": "玛机雅娜",
-      "french": "Marshadow"
+      "french": "Magearna"
     },
     "type": [
       "Steel",
@@ -16425,7 +16425,7 @@
       "english": "Marshadow",
       "japanese": "マーシャドー",
       "chinese": "玛夏多",
-      "french": "Vémini"
+      "french": "Marshadow"
     },
     "type": [
       "Fighting",
@@ -16446,7 +16446,7 @@
       "english": "Poipole",
       "japanese": "ベベノム",
       "chinese": "毒贝比",
-      "french": "Mandrillon"
+      "french": "Vémini"
     },
     "type": [
       "Poison"
@@ -16466,7 +16466,7 @@
       "english": "Naganadel",
       "japanese": "アーゴヨン",
       "chinese": "四颚针龙",
-      "french": "Ama-Ama"
+      "french": "Mandrillon"
     },
     "type": [
       "Poison",
@@ -16487,7 +16487,7 @@
       "english": "Stakataka",
       "japanese": "ツンデツンデ",
       "chinese": "垒磊石",
-      "french": "Pierroteknik"
+      "french": "Ama-Ama"
     },
     "type": [
       "Rock",
@@ -16508,7 +16508,7 @@
       "english": "Blacephalon",
       "japanese": "ズガドーン",
       "chinese": "砰头小丑",
-      "french": "Zeraora"
+      "french": "Pierroteknik"
     },
     "type": [
       "Fire",
@@ -16529,7 +16529,7 @@
       "english": "Zeraora",
       "japanese": "ゼラオラ",
       "chinese": "捷拉奥拉",
-      "french": "Meltan"
+      "french": "Zeraora"
     },
     "type": [
       "Electric"
@@ -16549,7 +16549,7 @@
       "english": "Meltan",
       "japanese": "メルタン",
       "chinese": "美录坦",
-      "french": "Melmetal"
+      "french": "Meltan"
     },
     "type": [
       "Steel"
@@ -16569,7 +16569,7 @@
       "english": "Melmetal",
       "japanese": "メルメタル",
       "chinese": "美录梅塔",
-      "french": ""
+      "french": "Melmetal"
     },
     "type": [
       "Steel"
