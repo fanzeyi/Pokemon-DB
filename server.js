@@ -29,7 +29,9 @@ pokemonroute
 .route('/:pid')
 .get(getpokemondata);
 //-------------------Server---------------------//
-app.listen(3000, "localhost", () => {
-  console.log("listening ");
+const port = 3000;
+const server = app.listen(port, () => {
+  console.log(`App running on port ${port}...`);
 });
+
 //-----------------------------------------------//
