@@ -17,7 +17,7 @@ const getpokemondata= (req,res)=>{
     res.status(200)
     .json({
       status: 'success',
-      image: __dirname+'\\images\\'+Pokemon.id,
+      //image: __dirname+'\\images\\'+Pokemon.id,
       data: {
         Pokemon
       }
