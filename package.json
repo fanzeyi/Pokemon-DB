@@ -1,0 +1,24 @@
+{
+  "name": "pokemon.json",
+  "version": "1.0.0",
+  "description": "pokedex api",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanzeyi/pokemon.json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanzeyi/pokemon.json/issues"
+  },
+  "homepage": "https://github.com/fanzeyi/pokemon.json#readme"
+}
