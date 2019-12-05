@@ -5,8 +5,11 @@ const app = express();
 const pokemonroute = express.Router();
 app.use('/pokemon', pokemonroute);
 app.use(express.json());
+// console.log("Charmander" == "charmander")
+// console.log("Charmander" === "charmander")
 
 //-----------------------------------------------//
+
 const Pokemondata = JSON.parse(fs.readFileSync("./pokedex.json", "utf-8"));
 //--------------MiddleWares---------------------//
 const getpokemondata= (req,res)=>{
