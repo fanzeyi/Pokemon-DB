@@ -60,8 +60,8 @@ const home=(req,res)=>{
 }
 //----------------------------------------------//
 pokemonroute.route("/:pid").get(getpokemondata);
-pokemonroute.route("/").get(home);
-app.route("/").get(home);
+pokemonroute.route("/random").get(home);
+
 
 //-------------------Server---------------------//
 const port = process.env.PORT || 3000;
