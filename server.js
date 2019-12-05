@@ -29,7 +29,7 @@ const getpokemondata = (req, res) => {
   console.log(id);
   res.status(200).json({
     status: "success",
-    image: "http://www.serebii.net/pokemongo/pokemon/" + id,
+    image: "http://www.serebii.net/pokemongo/pokemon/" + id+".png",
     data: {
       Pokemon
     }
