@@ -20,13 +20,17 @@ const Pokemondata = JSON.parse(fs.readFileSync("./pokedex.json", "utf-8"));
 //--------------MiddleWares---------------------//
 const getpokemondata = (req, res) => {
   const name = req.params.pid;
+  
+  
   console.log(name);
   const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
   var Pokemon = Pokemondata.find(el => el.name.english === nameCapitalized);
+  
   if (!Pokemon)
     return res
       .status(404)
       .json({ status: "failed", message: "Data not found" });
+
   var id = findid(Pokemon.id);
   console.log(id);
   Pokemon={...Pokemon,image: "http://www.serebii.net/pokemongo/pokemon/" + id+".png",}
@@ -39,8 +43,7 @@ const getpokemondata = (req, res) => {
 };
 const pokemonrandomizer =(req,res)=>{
   var pokemon =[] ;
-  
-  for (let i=0; i<10; i+=1) {
+  for (let i=0; i<6; i+=1) {
     var temppokemon = Pokemondata[Math.floor(Math.random() * 809)]
     var id = findid(temppokemon.id);
     temppokemon = {...temppokemon,image :"http://www.serebii.net/pokemongo/pokemon/" +id+".png",}
@@ -59,8 +62,8 @@ const home=(req,res)=>{
   });
 }
 //----------------------------------------------//
-pokemonroute.route("/:pid").get(getpokemondata);
 pokemonroute.route("/random").get(home);
+pokemonroute.route("/:pid").get(getpokemondata);
 
 
 //-------------------Server---------------------//
