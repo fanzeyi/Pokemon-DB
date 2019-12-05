@@ -15,8 +15,11 @@ const Pokemondata = JSON.parse(fs.readFileSync("./pokedex.json", "utf-8"));
 const getpokemondata= (req,res)=>{
     const name = req.params.pid;
     console.log(name)
-    const Pokemon = Pokemondata.find(el => el.name.english === name); 
-    
+    const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1)
+
+    const Pokemon = Pokemondata.find(el => el.name.english === nameCapitalized); 
+    if(!Pokemon)
+    return res.status(404).json({status:'failed',message:'Data not found'});
     res.status(200)
     .json({
       status: 'success',
