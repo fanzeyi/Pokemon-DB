@@ -1,39 +1,50 @@
 //-------------------Packages---------------------//
 const express = require("express");
-const fs = require ("fs")
+const fs = require("fs");
 const app = express();
 const pokemonroute = express.Router();
-app.use('/pokemon', pokemonroute);
+app.use("/pokemon", pokemonroute);
 app.use(express.json());
 // console.log("Charmander" == "charmander")
 // console.log("Charmander" === "charmander")
 
 //-----------------------------------------------//
-
+function base64_encode(file) {
+  var bitmap = fs.readFileSync(file);
+  return new Buffer.from(bitmap).toString("base64");
+}
+//-----------------------------------------------//
 const Pokemondata = JSON.parse(fs.readFileSync("./pokedex.json", "utf-8"));
 //--------------MiddleWares---------------------//
-const getpokemondata= (req,res)=>{
-    const name = req.params.pid;
-    console.log(name)
-    const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1)
+const getpokemondata = (req, res) => {
+  const name = req.params.pid;
+  console.log(name);
+  const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
 
-    const Pokemon = Pokemondata.find(el => el.name.english === nameCapitalized); 
-    if(!Pokemon)
-    return res.status(404).json({status:'failed',message:'Data not found'});
-    res.status(200)
-    .json({
-      status: 'success',
-      //image: __dirname+'\\images\\'+Pokemon.id,
-      data: {
-        Pokemon
-      }
-    });
-}
+  const Pokemon = Pokemondata.find(el => el.name.english === nameCapitalized);
+  
+  if (!Pokemon)
+    return res
+      .status(404)
+      .json({ status: "failed", message: "Data not found" });
+      var id = Pokemon.id;
+      
+      if(id<10)
+      id='00'+id;
+    else if(id<100)  
+      id='0'+id;
+      console.log(id);
+res.status(200).json({
+    status: "success",
+    image: base64_encode("./images/" + id + ".png"),
+    data: {
+      Pokemon
+    }
+  });
+};
 
 //----------------------------------------------//
-pokemonroute
-.route('/:pid')
-.get(getpokemondata);
+pokemonroute.route("/:pid").get(getpokemondata);
 //-------------------Server---------------------//
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
