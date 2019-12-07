@@ -4,14 +4,14 @@
   "description": "pokedex api",
   "main": "app.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "init": "^0.1.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	    "start": "node server.js"
-
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

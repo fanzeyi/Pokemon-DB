@@ -2,9 +2,11 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
+const cors = require('cors')
 const pokemonroute = express.Router();
 app.use("/pokemon", pokemonroute);
 app.use(express.json());
+app.use(cors())
 //-----------------------------------------------//
 
 function findid(id) {
@@ -65,6 +67,8 @@ const home = (req, res) => {
 //----------------------------------------------//
 pokemonroute.route("/random").get(home);
 pokemonroute.route("/:pid").get(getpokemondata);
+// pokemonroute.route("/$sort").get(getpokemondata);
+// pokemonroute.route("/$type").get(getpokemondata);
 
 //-------------------Server---------------------//
 const port = process.env.PORT || 3000;
