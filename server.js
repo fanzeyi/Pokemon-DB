@@ -26,19 +26,22 @@ const getpokemondata = (req, res) => {
 
   console.log(name);
   const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
-  var Pokemon = Pokemondata.find(el => el.name.english === nameCapitalized);
+  var TempPokemon = Pokemondata.find(el => el.name.english === nameCapitalized);
 
-  if (!Pokemon)
+  if (!TempPokemon)
     return res
       .status(404)
       .json({ status: "failed", message: "Data not found" });
 
-  var id = findid(Pokemon.id);
+  var id = findid(TempPokemon.id);
   console.log(id);
-  Pokemon = {
-    ...Pokemon,
+  TempPokemon = {
+    ...TempPokemon,
     image: "http://www.serebii.net/pokemongo/pokemon/" + id + ".png"
   };
+  var Pokemon = [];
+  Pokemon.push(TempPokemon);
+
   res.status(200).json({
     status: "success",
     data: {
