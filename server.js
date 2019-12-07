@@ -39,13 +39,13 @@ const getpokemondata = (req, res) => {
     ...TempPokemon,
     image: "http://www.serebii.net/pokemongo/pokemon/" + id + ".png"
   };
-  var Pokemon = [];
-  Pokemon.push(TempPokemon);
+  var pokemon = [];
+  pokemon.push(TempPokemon);
 
   res.status(200).json({
     status: "success",
     data: {
-      Pokemon
+      pokemon
     }
   });
 };
