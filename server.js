@@ -12,7 +12,15 @@ app.use((req, res, next) => {
   next();
 });
 //-----------------------------------------------//
-
+var corsOptions = {
+  origin: function (origin, callback) {
+    if (whitelist.indexOf(origin) !== -1 || !origin) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
+  }
+}
 function findid(id) {
   if (id < 10) return "00" + id;
   else if (id < 100) return "0" + id;
