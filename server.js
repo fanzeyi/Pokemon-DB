@@ -19,24 +19,31 @@ const Pokemondata = JSON.parse(fs.readFileSync("./pokedex.json", "utf-8"));
 //--------------MiddleWares---------------------//
 const getpokemondata = (req, res) => {
   const name = req.params.pid;
-
-  console.log(name);
   const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
   var TempPokemon = Pokemondata.filter(el => el.name.english.substring(0,nameCapitalized.length) === nameCapitalized);
-  console.log(TempPokemon);
-  if (!(Array.isArray(TempPokemon) && TempPokemon.length))
+  if (TempPokemon.length === 0)
     return res
       .status(404)
       .json({ status: "failed", message: "Data not found" });
 
-  var id = findid(TempPokemon.id);
-  TempPokemon = {
-    ...TempPokemon,
-    image: "http://www.serebii.net/pokemongo/pokemon/" + id + ".png"
-  };
-  var pokemon = [];
-  pokemon.push(TempPokemon);
+ 
+  var pokemon = [] ;
+Object.keys(TempPokemon).forEach(function (key) {
+    var value = TempPokemon[key].value;
 
+    if(value >= 10 && value <= 20) {
+        TempPokemon[key].value = 7;
+    } else if(value > 20 && value <= 40) {
+        TempPokemon[key].value = 8;
+    }
+    var id = findid(TempPokemon[key].id);
+
+    TempPokemon[key] = {
+      ...TempPokemon[key],
+      image: "http://www.serebii.net/pokemongo/pokemon/" + id + ".png"
+    };
+    pokemon.push(TempPokemon[key]);
+});
   res.status(200).json({
     status: "success",
     data: {
