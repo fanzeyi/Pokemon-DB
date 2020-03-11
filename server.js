@@ -8,6 +8,10 @@ app.use("/pokemon", pokemonroute);
 app.use(express.json());
 app.use(cors())
 pokemonroute.use(cors());
+pokemonroute.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 //-----------------------------------------------//
 function findid(id) {
   if (id < 10) return "00" + id;
