@@ -45,7 +45,7 @@ Object.keys(TempPokemon).forEach(function (key) {
 
     TempPokemon[key] = {
       ...TempPokemon[key],
-      image: "www.serebii.net/pokemongo/pokemon/" + id + ".png"
+      image: "https://www.serebii.net/pokemongo/pokemon/" + id + ".png"
     };
     pokemon.push(TempPokemon[key]);
 });
