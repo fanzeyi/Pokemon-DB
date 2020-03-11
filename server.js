@@ -63,7 +63,7 @@ const pokemonrandomizer = (req, res) => {
     var id = findid(temppokemon.id);
     temppokemon = {
       ...temppokemon,
-      image: "http://www.serebii.net/pokemongo/pokemon/" + id + ".png"
+      image: "https://www.serebii.net/pokemongo/pokemon/" + id + ".png"
     };
     pokemon.push(temppokemon);
   }
